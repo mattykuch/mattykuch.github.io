@@ -1,41 +1,31 @@
-﻿
 <!DOCTYPE html>
-
-<style>
-body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-  //  background-color: dimgrey; 
-    color: #696969;
-    padding: 3px;
-}
-
-</style>
-
-<html>
-<body>
-<h1>Matthew Kuch's GitHub Pages</h1>
-
-<p>
-On these pages I host some experimental data visualizations that I've been working on.
-</p>
-<br>
-<br>
-<br>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>A Profile on Failure in O'level: Highlighting 20 districts that have consistently performed poorly over the last 5 years (2011 - 2015)</title>
+		<!-- Custom CSS styles -->
+		<link href="style.css" rel="stylesheet" type="text/css" >
+	</head>
+	<body>
+		<div class="container">
+			<h2> A Profile on Failure in O'level: Highlighting 20 districts that have consistently performed poorly over the last 5 years (2011 - 2015)</h2>
+			<h4> .... </h4>
+			<div id="area1"> <!-- linechart container -->
+			</div>
+			<div id="area2"> <!-- barchart container -->
+			</div>
+		</div> 
+		<div id="footer">
+			<strong>Source</strong> : www.data.ug
+		</div>
 
 
-<h2>Some example visualizations</h2>
-<p>
+		<!-- JS Libraries -->
+		<script src="d3.js" charset="utf-8"></script>
+		<!--<script type="text/javascript" src="http://d3js.org/d3.v3.js"></script>-->
 
-<ul>
-<li> <a href="http://bl.ocks.org/mattykuch/raw/f8bb2e87035929bbba5be86666fccaee">Uganda Immunisation Coverage Map 2016</a> </li>
-<br>
-<li> <a href="https://mattykuch.github.io/bumpchart">UCE Bump Chart</a> </li>
-<li> <a href="https://mattykuch.github.io/2charts">UCE Failure Rates by District</a> </li>
-
-</ul>
-
-</p>
-
-</body>
+		<!-- Custom JS code -->
+		<script src="area1.js"></script>
+		<script src="area2.js"></script>
+	</body>
 </html>
