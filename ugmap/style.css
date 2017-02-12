@@ -1,0 +1,71 @@
+body {
+	margin:25px;
+}
+
+#map {
+	width: 500px;
+	height: 500px;
+	border: 1px solid silver;
+	background: #E6E6E6;
+	float: left;
+}
+
+#tooltip {
+	position: absolute;
+	z-index: 2;
+	background: rgba(255,255,255,0.8);
+	border-radius: 4px;
+	width: 105px;
+	height: 35px;
+	color: black;
+	font-size: 14px;
+	padding: 5px;
+	top: -150px;
+	left: -150px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#tooltip p {
+	margin: 0;
+}
+
+#tooltip p.value {
+	font-weight: bold;
+}
+
+#details  {
+  margin-top: 2rem;
+  float: right;
+  overflow: hidden;
+}
+#initial {
+	font-size: 1.2rem;
+	float: left;
+}
+
+
+table {
+  margin-bottom: 0;
+}
+td, th {
+  padding: 6px 9px;
+}
+td {
+  text-align: right;
+}
+
+.container {
+	width: 1900px;
+	margin: 25px auto 25px auto;
+	padding: 50px 50px 50px 50px;
+	background-color: white;
+	box-shadow: 0 0 20px #ccc;
+}
+#footer {
+	border-top: 1px solid silver;
+	color: #888888;
+	font-size: 1.25rem;
+	text-align: center;
+	margin-top: 1rem;
+	padding: 0.5rem;
+}

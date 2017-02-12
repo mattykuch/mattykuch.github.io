@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Uganda: Immunisation coverage map</title>
+
+		<!-- CSS libraries -->
+    	<link href="http://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" rel="stylesheet" type="text/css">
+
+		<!-- Custom CSS styles -->
+		<link href="style.css" rel="stylesheet" type="text/css" >
+	</head>
+	<body>
+		<div class="container">
+			<h3> UGANDA IMMUNISATION COVERAGE MAP 2016</h3>
+			<div id="initial">
+				<strong>Instructions</strong>
+				<ul>
+					<li>Click on a district to show the details</li>
+					<li>The map color-key is like traffic lights: Green (High Coverage) to Red (Low Coverage)</li>
+				</ul>
+			</div>		
+
+			<div id="map"> <!-- Map container --> </div>
+
+			<div id="details"><!-- Details container --></div>
+
+		</div> 
+		<div id="footer">
+				<strong>Data sources</strong> : Data from Uganda's National Expanded Program for Immunisation (UNEPI) and Analytics from Clinton Health Access Initiative (CHAI).
+			</div>
+
+		<!-- Mustache template, rendered later to show the details of a feature -->
+	    <script id="template" type="x-tmpl-mustache">
+	      <h3 >{{ district }}</h3>
+	      <table>
+	        <tr>
+	          <th> Aggregated Coverage Score:</th>
+	          <td>{{ score16 }} %</td>
+	        </tr>
+	        <tr>
+	          <th> Population:</th>
+	          <td>{{ pop_16 }} </td>
+	        </tr>
+	        <tr>
+	          <th> DPT Coverage:</th>
+	          <td>{{ dpt16 }} %</td>
+	        </tr>
+	       	<tr>
+	          <th> DPT Dropout Rate:</th>
+	          <td>{{ dpt_droprate16 }} %</td>
+	        </tr>
+	        <tr>
+	          <th> BCG Coverage:</th>
+	          <td>{{ bcg16 }} %</td>
+	        </tr>
+	        <tr>
+	          <th> MEASLES Coverage:</th>
+	          <td>{{ mea16 }} %</td>
+	        </tr>
+	        <tr>
+	          <th> Polio Coverage:</th>
+	          <td>{{ polio16 }} %</td>
+	        </tr>
+	        <tr>
+	          <th> IPV Coverage:</th>
+	          <td>{{ ipv16 }} %</td>
+	        </tr>
+	        <tr>
+	          <th> PCV Coverage:</th>
+	          <td>{{ pcv16 }} %</td>
+	        </tr>
+	        <tr>
+	          <th> PENTA Vs PCV Gap:</th>
+	          <td>{{ pentapcv_gap16 }} %</td>
+	        </tr>
+	        <tr>
+	          <th> HPV Coverage:</th>
+	          <td>{{ hpv16 }} %</td>
+	        </tr>
+	      </table>	      
+	    </script>
+
+
+		<!-- Tooltip div -->
+		<div id="tooltip">
+		<p class="name"></p>
+		<p class="value"></p>
+		</div>
+
+
+		<!-- JS Libraries -->
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+
+		<!-- Custom JS code -->
+		<script src="map.js"></script>
+	</body>
+</html>
