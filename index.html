@@ -1,46 +1,159 @@
 
+<head>
+    <meta charset="utf-8">
+    <title>Matthew Kuch's Monthly Visualizations using D3.js</title>
+
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <style type="text/css" media="screen">
+        body {
+            font-size: 12px;
+            font-weight: bold;
+            padding-top: 80px;
+        }
+        #trailer .modal-dialog {
+            margin-top: 200px;
+            width: 640px;
+            height: 480px;
+        }
+        .hanging-close {
+            position: absolute;
+            top: -12px;
+            right: -12px;
+            z-index: 9001;
+        }
+        #trailer-video {
+            width: 100%;
+            height: 100%;
+        }
+        .movie-tile {
+            margin-bottom: 30px;
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+        .movie-tile:hover {
+            background-color: #EEE;
+            cursor: pointer;
+            border-color: gray;
+        }
+        .scale-media {
+            padding-bottom: 56.25%;
+            position: relative;
+        }
+        .scale-media iframe {
+            border: none;
+            height: 100%;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 0;
+            background-color: white;
+        }
+        /* area below the navbar holding the bootstrap well and criterion info */
+        #legend {
+            margin-top: 10px;
+            font-weight:bold;
+            padding-left: 20px;
+            font-size: 16px;
+        }
+        /* area below the bootstrap well */
+	#instruct {
+            padding-left: 20px;
+            font-style: italic;
+	}
+        /* year and title colors */
+        h2, h4 {
+            color: #084B8A;
+        }
+        /* makes sure the navbar links float to the right  and stack when the browser is minimized */
+        ul.nav.navbar-nav {
+            float: right;
+            padding-right: 20px;
+        }
+
+    </style>
+
+</head>
+
 <!DOCTYPE html>
+<html lang="en">
+  <body>
+    <!--  Modal -->
+    <div class="modal" id="trailer">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+            <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+          </a>
+          <div class="scale-media" id="trailer-video-container">
+          </div>
+        </div>
+      </div>
+    </div>
 
-<style>
-body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-  //  background-color: dimgrey; 
-    color: #696969;
-    padding: 3px;
-}
+    <!-- Main Page Content -->
+    <div class="container">
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Matthew Kuch's Monthly Visualizations using D3.js</a>
 
-</style>
+                <ul class="nav navbar-nav">
+        <li><a href="https://twitter.com/matthewkuch" target="_blank">Twitter</a></li>
+        <li><a href="https://github.com/mattykuch" target="_blank">GitHub</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<html>
-<body>
-<h1>Matthew Kuch's Monthly Visualizations using D3.js</h1>
+    <div class="well" id="legend">
+      On this pages I host some experimental data visualizations that I've been working on, a monthly basis.
+    </div>
 
-<p>
-On these pages I host some experimental data visualizations that I've been working on a monthly basis.
-</p>
-<br>
-<br>
-<br>
+    <div class ="afterwell" id="instruct">
+      Click the thumbnail to view the original project!
+    </div>
 
-
-<h2>Some example visualizations</h2>
-<p>
-
-<ul>
-<li> January 2017: <a href="http://bl.ocks.org/mattykuch/raw/f8bb2e87035929bbba5be86666fccaee/">Uganda Immunisation Coverage Map 2016</a> </li>
-<br>
-<li> February 2017: <a href="https://mattykuch.github.io/bumpchart">UCE Bumpchart</a> </li>
-<br>
-<li> February 2017:  <a href="https://mattykuch.github.io/2charts">UCE Failure Rate Profile by District</a> </li>
-<br>
-
+    <div class="container">
+      
+<div class="col-md-6 col-lg-4 movie-tile text-center">
+    <a href="http://bl.ocks.org/mattykuch/raw/f8bb2e87035929bbba5be86666fccaee/" target="_blank">
+    <img src="img/immunisation_thumbnail.jpg" width="220" height="342">
+    </a>
+    <h2>Immunisation Coverage in Uganda</h2>
+    <h4>January 2017 </h4>
+    Theme: Health
+    <p>
     
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center">
+    <a href="https://mattykuch.github.io/bumpchart" target="_blank">
+    <img src="img/bumpchart.png" width="220" height="342">
+    </a>
+    <h2>UCE School Performance Bumpchart</h2>
+    <h4>February 2017 </h4>
+    Theme: Education
+    <p>
     
+</div>
 
-</ul>
-
-</p>
-
-</body>
+<div class="col-md-6 col-lg-4 movie-tile text-center">
+    <a href="https://mattykuch.github.io/2charts" target="_blank">
+    <img src="img/2charts.png" width="220" height="342">
+    </a>
+    <h2>UCE Failure Rate Profile by District</h2>
+    <h4>February 2017 </h4>
+    Theme: Education
+    <p>
+    
+</div>
+    </div>
+  </body>
 </html>
+
+
