@@ -53,10 +53,10 @@ var activeDistrict; // Will be used for linked hovering
 
 // Load in csv data 
 
-d3.csv("data/div9.csv", function(data) {
+d3.csv("data/div9_v2.csv", function(data) {
 
   // Create new array of all years in timeline for linechart. Will be referenced later
-  var years = [ "2011", "2012", "2013", "2014", "2015"];
+  var years = [ "2011", "2012", "2013", "2014", "2015", "2016" ];
 
   //Make dataset an empty array (for now) to hold our restructured dataset
   dataset = [];
@@ -186,12 +186,12 @@ d3.csv("data/div9.csv", function(data) {
         //with some logic for selecting the ones you want to highlight? Use anonymous function to match objects for highlighting?
         //National label
         linechart.append("text")
-          .attr("transform", "translate(" + xLabelLine + ", " + yScaleLine(data[20][years[4]]) + ")")
+          .attr("transform", "translate(" + xLabelLine + ", " + yScaleLine(data[20][years[5]]) + ")")
           .attr("dy", ".15em")
           .attr("dx", ".25em")
           .attr("text-anchor", "start")
           .attr("class","labelNation")
-          .text( + data[20][years[4]] );
+          .text( + data[20][years[5]] );
 
 
 
