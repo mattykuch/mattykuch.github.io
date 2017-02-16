@@ -29,7 +29,7 @@ var barchart = d3.select("#area2")
 
 // Entering data
 
-d3.csv("data/div9.csv", function(data) {
+d3.csv("data/div9_v2.csv", function(data) {
 
 	data.sort(function(a, b) {
 		return d3.descending(+a.avg, +b.avg)
