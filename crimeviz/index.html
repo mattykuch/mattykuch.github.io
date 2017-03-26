@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Serious Crime Cases in Uganda over a 10 year period (2004 - 2014)</title>
+
+    <!-- Custom CSS styles -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="main-wrapper">
+      <h3>(Reported) Serious Crime Cases in Uganda over a 10 year period (2004 - 2014)</h3>
+      <div id="content">
+        <div id="drpdown">
+        <b>Type of Crime:</b>
+          <select onchange="loadData()" id="metric">
+          <option value="defilement">Defilement</option>
+          <option value="homicides">Homicides</option>
+          <option value="burglary">Burglary</option>
+          <option value="robbery">Aggravated Robbery</option>
+          <option value="rape">Rape</option>
+        </select>
+        <input type=checkbox>Sort</input>
+        </div><!--end of drpdown container-->      
+        <div id="barchart"><!-- Barchart container --></div>
+
+      </div> <!-- end of content div -->
+    </div> <!-- end of main-wrapper div -->
+    
+
+    <!-- JS libraries -->
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+
+    <!-- Custom JS code -->
+    <script src="js/barchart.js"></script>
+
+  </body>
+</html>

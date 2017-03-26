@@ -1,0 +1,49 @@
+body {
+	margin: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 20px 10px;
+    text-align: center;
+}
+
+#drpdown {
+
+	width: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content {
+	width: 800px;
+	height: 500px;
+	margin-left: auto ;
+  	margin-right: auto ;
+	border: 1px solid silver;
+	background: white;
+
+}
+
+.bar {
+  fill: #ccc;
+}
+
+.bar:hover {
+fill: brown;
+}
+.axis text {
+font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+fill: none;
+stroke: #000;
+shape-rendering: crispEdges;
+}
+.x.axis path {
+display: none;
+}
