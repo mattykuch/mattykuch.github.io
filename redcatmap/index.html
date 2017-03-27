@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Map of RED Categorization</title>
+
+    <!-- Custom CSS styles -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="main-wrapper">
+      <h3>Map of RED Categorization</h3>
+      <div id="content">      
+        <div id="map"><!-- Map container --></div>
+        <div id="legend"><!-- Legend container --></div>
+        <div id="chart"><!-- Table container--></div>
+        <!-- Tooltip div -->
+        <div id="tooltip">
+          <p class="name"></p>
+          <p class="value"></p>
+        </div> <!-- end of tooltip div -->
+      </div> <!-- end of content div -->
+      <div id="initial">
+        <h5>Instructions</h5>
+          <p>Hover over a district to show tooltip.</p>
+          <p>Scroll in the map to zoom in and out.</p>
+          <p>Click on the table headers to sort the districts in alphabetical order</p>
+        </div> <!-- end of initial div -->
+
+    </div> <!-- end of main-wrapper div -->
+    
+
+    <!-- JS libraries -->
+    <!--<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>-->
+    <script src="d3.js" charset="utf-8"></script>
+    <script type="text/javascript" src="data.js"></script>
+
+
+    <!-- Custom JS code -->
+    <script src="map.js"></script>
+    <script src="legend.js"></script>
+    <script src="table.js"></script>
+    <script src="tab.js"></script>
+  </body>
+</html>

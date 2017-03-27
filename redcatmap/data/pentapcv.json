@@ -1,0 +1,450 @@
+[
+  {
+    "district": "ABIM",
+    "gap": 8
+  },
+  {
+    "district": "ADJUMANI",
+    "gap": 16
+  },
+  {
+    "district": "AGAGO",
+    "gap": 2
+  },
+  {
+    "district": "ALEBTONG",
+    "gap": 3
+  },
+  {
+    "district": "AMOLATAR",
+    "gap": 7
+  },
+  {
+    "district": "AMUDAT",
+    "gap": 2
+  },
+  {
+    "district": "AMURIA",
+    "gap": 19
+  },
+  {
+    "district": "AMURU",
+    "gap": 16
+  },
+  {
+    "district": "APAC",
+    "gap": 3
+  },
+  {
+    "district": "ARUA",
+    "gap": 6
+  },
+  {
+    "district": "BUDAKA",
+    "gap": 5
+  },
+  {
+    "district": "BUDUDA",
+    "gap": 1
+  },
+  {
+    "district": "BUGIRI",
+    "gap": 11
+  },
+  {
+    "district": "BUHWEJU",
+    "gap": 2
+  },
+  {
+    "district": "BUIKWE",
+    "gap": 5
+  },
+  {
+    "district": "BUKEDEA",
+    "gap": 10
+  },
+  {
+    "district": "BUKOMANSIMBI",
+    "gap": 4
+  },
+  {
+    "district": "BUKWO",
+    "gap": 2
+  },
+  {
+    "district": "BULAMBULI",
+    "gap": 4
+  },
+  {
+    "district": "BULIISA",
+    "gap": 9
+  },
+  {
+    "district": "BUNDIBUGYO",
+    "gap": 9
+  },
+  {
+    "district": "BUSHENYI",
+    "gap": 3
+  },
+  {
+    "district": "BUSIA",
+    "gap": 14
+  },
+  {
+    "district": "BUTALEJA",
+    "gap": 5
+  },
+  {
+    "district": "BUTAMBALA",
+    "gap": 6
+  },
+  {
+    "district": "BUVUMA",
+    "gap": 9
+  },
+  {
+    "district": "BUYENDE",
+    "gap": 9
+  },
+  {
+    "district": "DOKOLO",
+    "gap": 1
+  },
+  {
+    "district": "GOMBA",
+    "gap": 2
+  },
+  {
+    "district": "GULU",
+    "gap": 22
+  },
+  {
+    "district": "HOIMA",
+    "gap": 6
+  },
+  {
+    "district": "IBANDA",
+    "gap": 7
+  },
+  {
+    "district": "IGANGA",
+    "gap": 0
+  },
+  {
+    "district": "ISINGIRO",
+    "gap": 10
+  },
+  {
+    "district": "JINJA",
+    "gap": 2
+  },
+  {
+    "district": "KAABONG",
+    "gap": 3
+  },
+  {
+    "district": "KABALE",
+    "gap": 3
+  },
+  {
+    "district": "KABAROLE",
+    "gap": 10
+  },
+  {
+    "district": "KABERAMAIDO",
+    "gap": 3
+  },
+  {
+    "district": "KALANGALA",
+    "gap": 18
+  },
+  {
+    "district": "KALIRO",
+    "gap": 7
+  },
+  {
+    "district": "KALUNGU",
+    "gap": 2
+  },
+  {
+    "district": "KAMPALA",
+    "gap": 18
+  },
+  {
+    "district": "KAMULI",
+    "gap": 6
+  },
+  {
+    "district": "KAMWENGE",
+    "gap": 6
+  },
+  {
+    "district": "KANUNGU",
+    "gap": 6
+  },
+  {
+    "district": "KAPCHORWA",
+    "gap": 3
+  },
+  {
+    "district": "KASESE",
+    "gap": 13
+  },
+  {
+    "district": "KATAKWI",
+    "gap": 10
+  },
+  {
+    "district": "KAYUNGA",
+    "gap": 9
+  },
+  {
+    "district": "KIBAALE",
+    "gap": 10
+  },
+  {
+    "district": "KIBOGA",
+    "gap": 2
+  },
+  {
+    "district": "KIBUKU",
+    "gap": 3
+  },
+  {
+    "district": "KIRUHURA",
+    "gap": 6
+  },
+  {
+    "district": "KIRYANDONGO",
+    "gap": 19
+  },
+  {
+    "district": "KISORO",
+    "gap": 2
+  },
+  {
+    "district": "KITGUM",
+    "gap": 4
+  },
+  {
+    "district": "KOBOKO",
+    "gap": 1
+  },
+  {
+    "district": "KOLE",
+    "gap": -3
+  },
+  {
+    "district": "KOTIDO",
+    "gap": 2
+  },
+  {
+    "district": "KUMI",
+    "gap": 5
+  },
+  {
+    "district": "KWEEN",
+    "gap": 3
+  },
+  {
+    "district": "KYANKWANZI",
+    "gap": 8
+  },
+  {
+    "district": "KYEGEGWA",
+    "gap": 4
+  },
+  {
+    "district": "KYENJOJO",
+    "gap": 14
+  },
+  {
+    "district": "LAMWO",
+    "gap": 6
+  },
+  {
+    "district": "LIRA",
+    "gap": 4
+  },
+  {
+    "district": "LUUKA",
+    "gap": 8
+  },
+  {
+    "district": "LUWERO",
+    "gap": 13
+  },
+  {
+    "district": "LWENGO",
+    "gap": 9
+  },
+  {
+    "district": "LYANTONDE",
+    "gap": 6
+  },
+  {
+    "district": "MANAFWA",
+    "gap": 25
+  },
+  {
+    "district": "MARACHA",
+    "gap": 7
+  },
+  {
+    "district": "MASAKA",
+    "gap": 9
+  },
+  {
+    "district": "MASINDI",
+    "gap": 2
+  },
+  {
+    "district": "MAYUGE",
+    "gap": 11
+  },
+  {
+    "district": "MBALE",
+    "gap": 15
+  },
+  {
+    "district": "MBARARA",
+    "gap": 8
+  },
+  {
+    "district": "MITOOMA",
+    "gap": 2
+  },
+  {
+    "district": "MITYANA",
+    "gap": 6
+  },
+  {
+    "district": "MOROTO",
+    "gap": 8
+  },
+  {
+    "district": "MOYO",
+    "gap": 4
+  },
+  {
+    "district": "MPIGI",
+    "gap": 8
+  },
+  {
+    "district": "MUBENDE",
+    "gap": 12
+  },
+  {
+    "district": "MUKONO",
+    "gap": 4
+  },
+  {
+    "district": "NAKAPIRIPIRIT",
+    "gap": 12
+  },
+  {
+    "district": "NAKASEKE",
+    "gap": 3
+  },
+  {
+    "district": "NAKASONGOLA",
+    "gap": 5
+  },
+  {
+    "district": "NAMAYINGO",
+    "gap": 19
+  },
+  {
+    "district": "NAMUTUMBA",
+    "gap": -13
+  },
+  {
+    "district": "NAPAK",
+    "gap": -2
+  },
+  {
+    "district": "NEBBI",
+    "gap": 10
+  },
+  {
+    "district": "NGORA",
+    "gap": 4
+  },
+  {
+    "district": "NTOROKO",
+    "gap": 14
+  },
+  {
+    "district": "NTUNGAMO",
+    "gap": 11
+  },
+  {
+    "district": "NWOYA",
+    "gap": 5
+  },
+  {
+    "district": "OTUKE",
+    "gap": 6
+  },
+  {
+    "district": "OYAM",
+    "gap": 6
+  },
+  {
+    "district": "PADER",
+    "gap": 13
+  },
+  {
+    "district": "PALLISA",
+    "gap": 6
+  },
+  {
+    "district": "RAKAI",
+    "gap": 7
+  },
+  {
+    "district": "RUBIRIZI",
+    "gap": 10
+  },
+  {
+    "district": "RUKUNGIRI",
+    "gap": 4
+  },
+  {
+    "district": "SSEMBABULE",
+    "gap": 3
+  },
+  {
+    "district": "SERERE",
+    "gap": 2
+  },
+  {
+    "district": "SHEEMA",
+    "gap": 3
+  },
+  {
+    "district": "SIRONKO",
+    "gap": 14
+  },
+  {
+    "district": "SOROTI",
+    "gap": 6
+  },
+  {
+    "district": "TORORO",
+    "gap": 6
+  },
+  {
+    "district": "WAKISO",
+    "gap": 5
+  },
+  {
+    "district": "YUMBE",
+    "gap": 2
+  },
+  {
+    "district": "ZOMBO",
+    "gap": 15
+  }
+]
