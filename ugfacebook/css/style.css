@@ -1,0 +1,131 @@
+/* Normalize */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, figure, form, fieldset, input, p, blockquote, th, td, legend {
+	margin: 0;
+	padding: 0;
+}
+body {
+    font-family: 'Cardo', serif;
+}
+h1 {
+    font-family: 'Bevan', serif;
+    font-size: 3.0em;
+}
+h2 {
+    font-family: 'Cardo', serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+p { line-height: 1.4em; margin-bottom: 1.0em; }
+a { color: #821122; }
+
+#content {
+    width: 925px;
+    margin: 0 auto;
+}
+
+#sub-content {
+    margin-top: 5px;
+}
+
+
+
+#blurb {
+    height: 60px;
+    border-top: 1px solid #e2e2e2;
+    padding-top: 20px;
+}
+
+
+#mainchart {
+  width: 960px;
+  height: 500px;
+  border: 1px solid silver;
+  background: #E6E6E6;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#drpdown {
+
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#cite { font-size: 0.8em; text-align: left; margin-top:10px; padding-bottom: 20px;  }
+#cite a { background: #e2e2e2; text-decoration: none; color: #821122; }
+
+.bar {
+  fill: #ccc;
+}
+
+.bar:hover {
+fill: brown;
+}
+.axis text {
+font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+fill: none;
+stroke: #000;
+shape-rendering: crispEdges;
+}
+
+
+
+.dot {
+  stroke: #000;
+}
+
+
+#boxtip {
+  width: 950px;
+  height: 70px;
+  pointer-events: none;
+  padding: 2px 4px 2px 6px;
+
+  
+}
+
+#boxtip p {
+  margin: 0;
+}
+
+#boxtip p.rank {
+  font-weight: bold;
+}
+
+#boxtip p.name {
+  font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+#boxtip p.value {
+   font-size: 15px;
+   text-align: center;
+}
+
+.annotation circle {
+  fill: none;
+  stroke: darkslategrey;
+}
+
+.annotation path {
+  fill: none;
+  stroke: darkslategrey;
+  shape-rendering: crispEdges;
+}
+
+.annotation text {
+  text-shadow: -2px 0 2px #fff, 
+                0 2px 2px #fff,
+                2px 0 2px #fff, 
+                0 -2px 2px #fff;
+}

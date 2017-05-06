@@ -1,0 +1,33 @@
+{
+    "name": "Vaccines",
+    "data": [
+        {
+            "name": "BCG",
+            "description": "The Bacille Calmette-Guerin (BCG) vaccine protects against childhhod Tuberculosis.",
+            "doses": 1,
+            "firstdose_week": 0,
+            "color": "#FF5149"
+        },
+        {
+            "name": "PENTA",
+            "description": "The Pentavalent (PENTA) vaccine aka 'DPT-HepB-Hib' is a five-in-one vaccine that protects children against Diphtheria, Pertusis (Whooping Cough), Tetanus, Hepatitis B and Haemophilus Influenza (type B).",
+            "doses": 3,
+            "firstdose_week": 6,
+            "color": "#E89546"
+        },
+        {
+            "name": "POLIO",
+            "description": "The POLIO vaccine protects children against Polio.",
+            "doses": 3,
+            "firstdose_week": 0,
+            "color": "#A1E846"
+        },
+        {
+            "name": "MEASLES",
+            "description": "The MEASLES vaccine protects children against Measles.",
+            "doses": 1,
+            "firstdose_week": 36,
+            "color": "#FFE159"
+        }
+    ]
+}
