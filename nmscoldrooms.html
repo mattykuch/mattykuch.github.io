@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title>NMS Coldrooms Visualisation</title>
+
+ 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    <style>
+      .axis path,
+      .axis line {
+        fill: none;
+        stroke: black;
+        shape-rendering: crispEdges;
+      }
+
+      .axis text {
+          font-family: sans-serif;
+          font-size: 11px;
+      }
+
+      .cell {
+      stroke: #E6E6E6;
+      stroke-width:2px;   
+    }
+
+    .coldmap {
+      float: left;
+
+    }
+    .freezemap {
+      float: left;
+    }
+    </style>
+</head>
+<body>
+  
+  <div class="coldmap"><h3>Cold Rooms</h3></div>
+  
+  <div class="freezemap"> <h3>Freeze Rooms</h3></div>
+<script type="text/javascript" src="coldrooms.js"></script>
+<script type="text/javascript" src="freezerooms.js"></script>
+</body></html>
