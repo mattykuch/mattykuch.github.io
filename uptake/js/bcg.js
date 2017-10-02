@@ -44,7 +44,7 @@ $(function () {
                 layout: 'vertical',
                 backgroundColor: '#FFFFFF',
                 align: 'left',
-                verticalAlign: 'top',
+                verticalAlign: 'bottom',
                 x: 10,
                 y: 0,
                 floating: true,
