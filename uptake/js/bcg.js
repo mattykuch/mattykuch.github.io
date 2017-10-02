@@ -45,7 +45,7 @@ $(function () {
                 backgroundColor: '#FFFFFF',
                 align: 'left',
                 verticalAlign: 'top',
-                x: 800,
+                x: 950,
                 y: 0,
                 floating: true,
                 shadow: true
