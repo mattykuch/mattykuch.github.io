@@ -17,7 +17,7 @@ $(function () {
 					style: {
 					            color: '#5e82a3',
 					            fontWeight: 'bold',
-					            fontSize: '30px'
+					            fontSize: '15px'
 					        }
             },
             subtitle: {
