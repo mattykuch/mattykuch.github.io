@@ -43,9 +43,9 @@ $(function () {
             legend: {
                 layout: 'vertical',
                 backgroundColor: '#FFFFFF',
-                align: 'right',
+                align: 'left',
                 verticalAlign: 'top',
-                x: 400,
+                x: 800,
                 y: 0,
                 floating: true,
                 shadow: true
