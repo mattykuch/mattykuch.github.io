@@ -13,7 +13,7 @@ $(function () {
                 type: 'column'
             },
             title: {
-                text: 'BCG - Supply Vs Consumption per Month in 2017',
+                text: 'Supply Vs Consumption per Month in 2017 for BCG',
 					style: {
 					            color: '#5e82a3',
 					            fontWeight: 'bold',
