@@ -13,11 +13,11 @@ $(function () {
                 type: 'column'
             },
             title: {
-                text: 'PCV-2 - Supply Vs Consumption per Month in 2017',
+                text: 'Supply Vs Consumption per Month in 2017 for PCV-2',
                     style: {
                                 color: '#5e82a3',
                                 fontWeight: 'bold',
-                                fontSize: '30px'
+                                fontSize: '15px'
                             }
             },
             subtitle: {
@@ -45,7 +45,7 @@ $(function () {
                 backgroundColor: '#FFFFFF',
                 align: 'left',
                 verticalAlign: 'top',
-                x: 10,
+                x: 950,
                 y: 0,
                 floating: true,
                 shadow: true
