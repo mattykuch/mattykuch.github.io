@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Matt's PKM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,7 +18,7 @@
       </div>
       <div class="intro">
         <h1>Matt</h1>
-        <p>
+        <p class="haiku">
           Building with atoms,</br>
           Creative pursuits unfold,</br>
           Bits spark dreams untold.</br>
@@ -30,7 +33,7 @@
 
         <a href="https://bk-advisors.github.io/hpv-png-story/" target="_blank" class="work-item">
           <img src="./img/hpv-png-story-cover.png" width="220" height="220">
-          <h3>The Cases for HPV Vaccine in PNG</h3>
+          <h3>The Case for HPV Vaccine in PNG</h3>
           <p>A data-driven story for HPV vaccine introduction in Papua New Guinea.</p>
           <p class="date">01/02/2026</p>
         </a>
@@ -56,7 +59,7 @@
           <p class="date">19/02/2025</p>
         </a>
 
-        <a href="https://mattykuch.github.io/house-building/" target="_blank" class="work-item">
+        <a href="https://bk-advisors.github.io/house-build-book/" target="_blank" class="work-item">
           <img src="./img/house.jpg" width="220" height="220">
           <h3>Modern House Building in Africa 101</h3>
           <p>A quick, visual and beginner's guide with practical cost saving tips & lessons from Uganda.</p>
@@ -91,5 +94,16 @@
       </div>
     </section>
   </div>
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.work-item').forEach(item => observer.observe(item));
+  </script>
 </body>
 </html>
