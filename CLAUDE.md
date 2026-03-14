@@ -22,6 +22,13 @@ This is **mattykuch.github.io** — a GitHub Pages static portfolio site showcas
 
 **Portfolio hub (`index.html` + `styles.css`):** The main landing page uses CSS Grid to display a gallery of work items linking to subprojects (either hosted in subdirectories or on external sites like `bk-advisors.github.io`). Uses Google Fonts (DM Sans for body, DM Mono for the haiku).
 
+**Externally hosted projects on `bk-advisors.github.io`:**
+- `africa-measles` — Measles in Africa data visualization
+- `hpv-png-story` — HPV vaccine case for Papua New Guinea
+- `bounce-back` — NBA legends data exploration
+- `jc-dash` — JC Farms dashboard
+- `house-build-book` — House building guide for Africa
+
 **Visualization subprojects:** Each subdirectory (e.g., `crimeviz/`, `ugmap/`, `ug_bumpchart/`) is a self-contained project with its own `index.html`, styles, scripts, and data files. They are independent of each other.
 
 **Key libraries used across subprojects (bundled locally, not via npm):**
